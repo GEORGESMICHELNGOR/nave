@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(156, 190, 190);
+    /* margin-bottom: 20%; */
+    text-decoration: none;
+    border-bottom: 1px solid #dee2e6; 
+    padding: 10px 0;
+    font-weight: 700;
+    background-color: #dee2e6;
+
+}
+
+.cart {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 38px;
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.like {
+    color: black;
+}
+
+.like.clicked {
+    color: red;
+}
+.nav{
+    justify-content: center;
+    text-align: center;
+    justify-content: space-around;
+    background-color: azure;
+    /* margin-bottom: 20%; */
+}
+.nav a {
+    color: #495057; 
+    text-decoration: none; 
+    margin: 0 10px; 
+    transition: color 0.3s;
+}
+
+  
+ 
+  
+.pied{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+ 
+  
